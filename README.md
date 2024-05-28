@@ -2,4 +2,4 @@
 
 ## Project Overview
 
-A fullstack CRUD application built with a Spring Boot API and a Typescript React UI
+A full-stack basic CRUD application built with a Spring Boot API and a Typescript React UI
