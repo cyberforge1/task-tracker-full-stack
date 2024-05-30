@@ -1,39 +1,40 @@
-package com.example.todo_app.entity;
+package com.example.todo_app.todo;
 
+import com.example.todo_app.category.Category;
+import com.example.todo_app.common.BaseEntity;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-public class Todo {
+@Table(name = "todos")
+public class Todo extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    @Column(nullable = false)
     private String title;
+
+    @Column(columnDefinition = "TEXT")
     private String description;
+
+    @Column(nullable = false)
     private boolean completed;
 
-    // Default constructor
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "category_id")
+    @JsonIgnoreProperties("todos")
+    private Category category;
+
     public Todo() {
     }
 
-    // Constructor with parameters
     public Todo(String title, String description, boolean completed) {
         this.title = title;
         this.description = description;
         this.completed = completed;
-    }
-
-    // Getters and setters
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getTitle() {
@@ -60,11 +61,18 @@ public class Todo {
         this.completed = completed;
     }
 
-    // toString method
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
     @Override
     public String toString() {
         return "Todo{" +
-                "id=" + id +
+                "id=" + getId() +
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", completed=" + completed +
