@@ -1,11 +1,19 @@
 package com.example.todo_app.common;
 
-import jakarta.persistence.*;
 import java.util.Date;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
+import jakarta.persistence.Temporal;
+import jakarta.persistence.TemporalType;
 
 @MappedSuperclass
 public abstract class BaseEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,9 +25,6 @@ public abstract class BaseEntity {
     @Temporal(TemporalType.TIMESTAMP)
     @Column
     private Date updatedAt;
-
-    public BaseEntity() {
-    }
 
     public Long getId() {
         return id;
