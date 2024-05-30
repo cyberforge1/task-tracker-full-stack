@@ -1,0 +1,51 @@
+.todo-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    &.completed {
+      text-decoration: line-through;
+      color: black;
+    }
+    
+    h2 {
+      font-size: 18px;
+      margin: 0;
+      color: black;
+    }
+    
+    h4 {
+      font-size: 12px;
+      color: black;
+      margin: 5px 0;
+    }
+    
+    p {
+      font-size: 14px;
+      margin: 5px 0;
+      color: black;
+    }
+    
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      margin-left: 5px;
+      border: 1px solid black;
+  
+      &.edit-btn {
+        background-color: #6200ea;
+      }
+      
+      &.delete-btn {
+        background-color: #e91e63;
+      }
+    }
+  }
+  

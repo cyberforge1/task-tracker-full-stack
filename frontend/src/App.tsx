@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.css";
-import AllTodos from "./pages/AllTodos/AllTodos";
+import "./App.scss";
+import TodoContainer from "./containers/TodoContainer/TodoContainer";
 
 function App() {
   return (
-    <>
-      <AllTodos />
-    </>
+    <div className="container">
+      <TodoContainer />
+    </div>
   );
 }
 

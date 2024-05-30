@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import { Todo } from "../../types/types";
+import "./TodoCard.scss";
 
 dayjs.extend(relativeTime);
 
@@ -12,45 +15,21 @@ interface TodoCardProps {
 }
 
 const TodoCard: React.FC<TodoCardProps> = ({ todo, onDelete, onUpdate }) => {
-  const [isEditing, setIsEditing] = useState(false);
-  const [title, setTitle] = useState(todo.title);
-  const [description, setDescription] = useState(todo.description);
-
-  const handleUpdate = () => {
-    onUpdate(todo.id, { title, description });
-    setIsEditing(false);
-  };
-
   return (
-    <div>
-      {isEditing ? (
-        <>
-          <input 
-            type="text" 
-            value={title} 
-            onChange={(e) => setTitle(e.target.value)} 
-          />
-          <input 
-            type="text" 
-            value={description} 
-            onChange={(e) => setDescription(e.target.value)} 
-          />
-          <button onClick={handleUpdate}>Save</button>
-          <button onClick={() => setIsEditing(false)}>Cancel</button>
-        </>
-      ) : (
-        <>
-          <h2>{todo.title}</h2>
-          <h4>Created {dayjs(todo.createdAt).fromNow()}</h4>
-          <p>{todo.description}</p>
-          <p>Completed: {todo.completed ? "Yes" : "No"}</p>
-          <button onClick={() => onDelete(todo.id)}>Delete</button>
-          <button onClick={() => onUpdate(todo.id, { completed: !todo.completed })}>
-            {todo.completed ? "Mark as Incomplete" : "Mark as Complete"}
-          </button>
-          <button onClick={() => setIsEditing(true)}>Edit</button>
-        </>
-      )}
+    <div className={`todo-item ${todo.completed ? "completed" : ""}`}>
+      <div>
+        <h2>{todo.title}</h2>
+        <h4>{dayjs(todo.createdAt).format("h:mm A, MM/DD/YYYY")}</h4>
+        <p>{todo.description}</p>
+      </div>
+      <div>
+        <button onClick={() => onUpdate(todo.id, { completed: !todo.completed })} className="edit-btn">
+          <FontAwesomeIcon icon={faPencilAlt} />
+        </button>
+        <button onClick={() => onDelete(todo.id)} className="delete-btn">
+          <FontAwesomeIcon icon={faTrash} />
+        </button>
+      </div>
     </div>
   );
 };
