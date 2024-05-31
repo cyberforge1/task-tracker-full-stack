@@ -1,3 +1,5 @@
+// Modal.tsx
+
 import React, { useState, useEffect } from "react";
 import "./Modal.scss";
 

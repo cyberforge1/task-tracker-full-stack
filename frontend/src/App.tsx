@@ -1,3 +1,5 @@
+// App.tsx
+
 import React from "react";
 import "./App.scss";
 import TodoContainer from "./containers/TodoContainer/TodoContainer";
