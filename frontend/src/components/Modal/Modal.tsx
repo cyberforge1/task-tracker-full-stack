@@ -1,15 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Modal.scss";
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSave: (title: string, description: string) => void;
+  initialTitle: string;
+  initialDescription?: string;
 }
 
-const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave }) => {
-  const [title, setTitle] = useState("");
-  const [description, setDescription] = useState("");
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave, initialTitle, initialDescription = "" }) => {
+  const [title, setTitle] = useState(initialTitle);
+  const [description, setDescription] = useState(initialDescription);
+
+  useEffect(() => {
+    setTitle(initialTitle);
+    setDescription(initialDescription);
+  }, [initialTitle, initialDescription]);
 
   const handleSave = () => {
     onSave(title, description);
@@ -21,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave }) => {
   return (
     <div className="modal-overlay">
       <div className="modal">
-        <h2>Add New Task</h2>
+        <h2>Edit Task</h2>
         <div className="modal-content">
           <label>
             Title:

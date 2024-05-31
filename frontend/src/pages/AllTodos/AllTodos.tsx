@@ -22,7 +22,7 @@ const AllTodos: React.FC<AllTodosProps> = ({ todos, setTodos, filter }) => {
     } else {
       filtered = todos;
     }
-    setFilteredTodos(filtered);
+    setFilteredTodos(filtered.reverse()); // Reverse the filtered todos array here
   }, [todos, filter]);
 
   const handleDelete = (id: number) => {
@@ -38,11 +38,11 @@ const AllTodos: React.FC<AllTodosProps> = ({ todos, setTodos, filter }) => {
   };
 
   return (
-    <>
+    <div className="todo-list">
       {filteredTodos.map((todo) => (
         <TodoCard key={todo.id} todo={todo} onDelete={handleDelete} onUpdate={handleUpdate} />
       ))}
-    </>
+    </div>
   );
 };
 

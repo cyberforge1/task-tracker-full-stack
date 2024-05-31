@@ -9,6 +9,7 @@ const TodoContainer: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [filter, setFilter] = useState<string>("all");
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [newTask, setNewTask] = useState<string>("");
 
   useEffect(() => {
     getAllTodos()
@@ -23,22 +24,40 @@ const TodoContainer: React.FC = () => {
       .catch((e) => console.error(e));
   };
 
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (newTask.trim()) {
+      handleCreate(newTask, "");
+      setNewTask("");
+    }
+  };
+
   return (
     <div className="todo-container">
       <div className="header">
-        <h1>TODO LIST</h1>
-        <button className="add-task-btn" onClick={() => setIsModalOpen(true)}>Add Task</button>
+        <h1>My Day</h1>
         <select onChange={(e) => setFilter(e.target.value)}>
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="incomplete">Incomplete</option>
         </select>
       </div>
+      <form className="add-task-input" onSubmit={handleSubmit}>
+        <input 
+          type="text" 
+          placeholder="Add a task"
+          value={newTask}
+          onChange={(e) => setNewTask(e.target.value)} 
+        />
+        <button type="submit" className="add-btn">Add</button>
+      </form>
       <AllTodos todos={todos} setTodos={setTodos} filter={filter} />
       <Modal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         onSave={handleCreate}
+        initialTitle={newTask}
+        initialDescription=""
       />
     </div>
   );
