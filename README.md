@@ -10,7 +10,7 @@ A full-stack basic CRUD application built with a Spring Boot API and a Typescrip
 
 
 
-## COMMANDS
+## Commands
 
 ### Frontend:
 - npm run dev
