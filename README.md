@@ -10,15 +10,14 @@ A full-stack basic CRUD application built with a Spring Boot API and a Typescrip
 
 
 
+## COMMANDS
 
+### Frontend:
+- npm run dev
 
-# COMMANDS
-- Frontend:
-npm run dev
-
-- Backend:
-mvn clean install
-mvn spring-boot:run
+### Backend:
+- mvn clean install
+- mvn spring-boot:run
 
 
 
