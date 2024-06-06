@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash, faPencilAlt, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faPencilAlt, faStar, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Todo } from "../../types/types";
 import Modal from "../Modal/Modal";
 import "./TodoCard.scss";
@@ -37,14 +37,14 @@ const TodoCard: React.FC<TodoCardProps> = ({ todo, onDelete, onUpdate }) => {
         <p>{todo.description}</p>
       </div>
       <div>
-        <button onClick={handleToggleCompleted} className={`completed-btn ${todo.completed ? "completed" : ""}`}>
+        <button onClick={handleToggleCompleted} className={`completed-btn ${!todo.completed ? "completed" : ""}`}>
           <FontAwesomeIcon icon={faStar} />
         </button>
         <button onClick={() => setIsEditModalOpen(true)} className="edit-btn">
           <FontAwesomeIcon icon={faPencilAlt} />
         </button>
         <button onClick={() => onDelete(todo.id)} className="delete-btn">
-          <FontAwesomeIcon icon={faTrash} />
+          <FontAwesomeIcon icon={faXmark} style={{ fontSize: "24px" }} />
         </button>
       </div>
       {isEditModalOpen && (

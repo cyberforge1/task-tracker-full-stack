@@ -20,6 +20,24 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave, initialTitle, in
     setDescription(initialDescription);
   }, [initialTitle, initialDescription]);
 
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Enter") {
+        handleSave();
+      } else if (event.key === "Escape") {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen, title, description, onClose]);
+
   const handleSave = () => {
     onSave(title, description);
     onClose();
@@ -33,19 +51,11 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave, initialTitle, in
         <h2>Edit Task</h2>
         <div className="modal-content">
           <label>
-            Title:
             <input
               type="text"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
-          </label>
-          <label>
-            Description:
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-            ></textarea>
           </label>
         </div>
         <div className="modal-actions">

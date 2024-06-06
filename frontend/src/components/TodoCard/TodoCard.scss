@@ -12,8 +12,8 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
   &.completed {
-    text-decoration: line-through;
-    color: #e91e63;
+    text-decoration: 3px line-through;
+    color: black;
   }
 
   h2 {

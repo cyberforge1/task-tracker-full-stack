@@ -37,11 +37,11 @@ const TodoContainer: React.FC = () => {
   return (
     <div className="todo-container">
       <div className="header">
-        <h1>My Day</h1>
+        <h1>My Tasks</h1>
         <select onChange={(e) => setFilter(e.target.value)}>
           <option value="all">All</option>
+          <option value="incomplete">Outlying</option>
           <option value="completed">Completed</option>
-          <option value="incomplete">Incomplete</option>
         </select>
       </div>
       <form className="add-task-input" onSubmit={handleSubmit}>
@@ -51,7 +51,7 @@ const TodoContainer: React.FC = () => {
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)} 
         />
-        <button type="submit" className="add-btn">Add</button>
+        <button type="submit" className="add-btn">Add Task</button>
       </form>
       <AllTodos todos={todos} setTodos={setTodos} filter={filter} />
       <Modal

@@ -24,7 +24,11 @@ const AllTodos: React.FC<AllTodosProps> = ({ todos, setTodos, filter }) => {
     } else {
       filtered = todos;
     }
-    setFilteredTodos(filtered.reverse()); // Reverse the filtered todos array here
+
+    // Sort by creation date in descending order (most recent first)
+    filtered.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+
+    setFilteredTodos(filtered);
   }, [todos, filter]);
 
   const handleDelete = (id: number) => {
@@ -39,9 +43,15 @@ const AllTodos: React.FC<AllTodosProps> = ({ todos, setTodos, filter }) => {
       .catch((e) => console.error(e));
   };
 
+  const incompleteTodos = filteredTodos.filter(todo => !todo.completed);
+  const completedTodos = filteredTodos.filter(todo => todo.completed);
+
   return (
     <div className="todo-list">
-      {filteredTodos.map((todo) => (
+      {incompleteTodos.map((todo) => (
+        <TodoCard key={todo.id} todo={todo} onDelete={handleDelete} onUpdate={handleUpdate} />
+      ))}
+      {completedTodos.map((todo) => (
         <TodoCard key={todo.id} todo={todo} onDelete={handleDelete} onUpdate={handleUpdate} />
       ))}
     </div>
