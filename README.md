@@ -34,7 +34,11 @@ Goals
 
 
 ## Tech Stack
-- List technologies
+- Spring Boot
+- Java
+- mySQL
+- Swagger
+- Log4j
 
 
 ## Build Steps
