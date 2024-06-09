@@ -1,21 +1,14 @@
-# Full-Stack Task App
+# Task Tracker App Backend 
 
 ## Project Overview
-A full-stack basic CRUD application built with a Spring Boot API and a Typescript React UI
+A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
 
 
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
 
 
-
-
-## Commands
-
-### Frontend:
-- npm run dev
-
-### Backend:
+### Backend Commands:
 - mvn clean install
 - mvn spring-boot:run
 
