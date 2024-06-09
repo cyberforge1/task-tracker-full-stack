@@ -11,6 +11,10 @@ A full-stack task tracking application built with a Spring Boot API and a Typesc
 ## Deployment Link
 This project is live! Check it out [here](https://www.somelink.com).
 
+## Link to Application Frontend
+
+[https://github.com/cyberforge1/task-tracker-app-frontend](https://github.com/cyberforge1/task-tracker-app-frontend)
+
 
 ## Screenshots
 ![Project Screenshot](./project-screenshot.png)
