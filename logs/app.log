@@ -127,3 +127,546 @@
 2024-06-09 12:35:14 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
 2024-06-09 12:35:14 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.317 seconds (process running for 451.263)
 2024-06-09 12:35:14 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 12:49:47 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 12:57:28 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 12:57:28 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 27331 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 12:57:28 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 12:57:28 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 12:57:28 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 12:57:28 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 12:57:29 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 12:57:29 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-06-09 12:57:29 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 12:57:29 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 576 ms
+2024-06-09 12:57:29 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 12:57:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 12:57:29 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 12:57:29 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 12:57:30 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 12:57:30 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 12:57:30 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 12:57:30 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 12:57:30 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 12:57:30 INFO  TodoAppApplication:56 - Started TodoAppApplication in 2.116 seconds (process running for 2.52)
+2024-06-09 12:57:35 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 12:57:51 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 12:57:51 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 27707 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 12:57:51 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 12:57:51 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 12:57:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 12:57:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 12:57:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 12:57:51 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-06-09 12:57:51 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 12:57:51 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 497 ms
+2024-06-09 12:57:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 12:57:51 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 12:57:51 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 12:57:52 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 12:57:52 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 12:57:52 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 12:57:52 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 12:57:52 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 12:57:52 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 12:57:52 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.692 seconds (process running for 2.003)
+2024-06-09 12:58:11 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 12:58:11 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-06-09 13:00:41 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:00:42 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:00:42 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 27707 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:00:42 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:00:42 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:00:42 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:00:42 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-06-09 13:00:42 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:00:42 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 125 ms
+2024-06-09 13:00:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:00:42 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:00:42 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:00:42 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:00:42 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:00:42 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:00:42 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:00:42 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:00:42 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.425 seconds (process running for 171.619)
+2024-06-09 13:00:42 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:00:50 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:00:50 INFO  DispatcherServlet:554 - Completed initialization in 22 ms
+2024-06-09 13:02:06 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:02:06 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:02:06 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 27707 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:02:06 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:02:06 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:02:06 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:02:06 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-06-09 13:02:07 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:02:07 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 140 ms
+2024-06-09 13:02:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:02:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:02:07 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:02:07 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:02:07 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:02:07 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:02:07 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:02:07 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:02:07 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.361 seconds (process running for 256.316)
+2024-06-09 13:02:07 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:03:09 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:03:09 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:03:09 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 27707 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:03:09 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:03:09 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:03:09 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:03:09 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-06-09 13:03:09 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:03:09 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 140 ms
+2024-06-09 13:03:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:03:09 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:03:09 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:03:09 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:03:09 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:03:09 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:03:09 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:03:09 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:03:09 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.32 seconds (process running for 318.709)
+2024-06-09 13:03:09 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:03:14 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:03:52 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 13:03:52 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:03:52 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:03:52 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:03:52 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 13:03:52 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 13:03:52 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:03:52 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-06-09 13:03:52 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:03:52 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 510 ms
+2024-06-09 13:03:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:03:52 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 13:03:52 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:03:52 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:03:53 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:03:53 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:03:53 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:03:53 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:03:53 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:03:53 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.772 seconds (process running for 2.187)
+2024-06-09 13:04:02 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:04:02 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 13:04:59 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:04:59 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:00 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:05:00 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:05:00 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:05:00 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:05:00 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-06-09 13:05:00 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:05:00 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 125 ms
+2024-06-09 13:05:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:05:00 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:05:00 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:05:00 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:05:00 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:00 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:05:00 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:05:00 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:05:00 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.314 seconds (process running for 68.685)
+2024-06-09 13:05:00 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:05:17 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:05:17 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:18 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:05:18 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:05:18 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:05:18 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:05:18 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2024-06-09 13:05:18 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:05:18 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 110 ms
+2024-06-09 13:05:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:05:18 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:05:18 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:05:18 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:05:18 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:18 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:05:18 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:05:18 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:05:18 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.286 seconds (process running for 86.662)
+2024-06-09 13:05:18 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:05:30 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
+2024-06-09 13:05:30 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:30 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:05:30 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:05:30 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:05:30 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:05:30 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2024-06-09 13:05:30 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:05:30 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 102 ms
+2024-06-09 13:05:30 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:05:30 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:05:30 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:05:30 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:05:30 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:30 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:05:31 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:05:31 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:05:31 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.274 seconds (process running for 99.358)
+2024-06-09 13:05:31 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:05:57 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:05:57 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:57 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:05:57 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:05:57 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:05:57 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:05:57 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-06-09 13:05:57 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:05:57 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 139 ms
+2024-06-09 13:05:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:05:58 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:05:58 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:05:58 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:05:58 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:05:58 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:05:58 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:05:58 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:05:58 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.326 seconds (process running for 126.503)
+2024-06-09 13:05:58 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:06:44 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
+2024-06-09 13:06:44 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:06:44 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 32410 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:06:44 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:06:44 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:06:44 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:06:44 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2024-06-09 13:06:44 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:06:44 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 104 ms
+2024-06-09 13:06:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:06:44 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:06:44 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:06:44 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:06:44 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:06:44 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:06:44 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:06:44 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:06:44 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.271 seconds (process running for 173.115)
+2024-06-09 13:06:44 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:06:56 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 13:06:56 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35206 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:06:56 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:06:56 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:06:56 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 13:06:56 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 13:06:56 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:06:56 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-06-09 13:06:57 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:06:57 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 516 ms
+2024-06-09 13:06:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:06:57 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 13:06:57 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:06:57 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:06:57 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:06:57 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:06:58 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:06:58 WARN  OptionalLiveReloadServer:62 - Unable to start LiveReload server
+2024-06-09 13:06:58 WARN  AnnotationConfigServletWebServerApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-09 13:06:58 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:06:58 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-09 13:06:58 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-09 13:07:08 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:07:14 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 13:07:14 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:07:14 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:07:14 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:07:14 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 13:07:14 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 13:07:14 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:07:14 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-06-09 13:07:15 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:07:15 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 508 ms
+2024-06-09 13:07:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:07:15 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 13:07:15 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:07:15 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:07:15 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:07:15 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:07:16 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:07:16 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:07:16 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:07:16 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.747 seconds (process running for 2.071)
+2024-06-09 13:07:26 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:07:26 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 13:09:30 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:09:30 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:09:31 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:09:31 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:09:31 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:09:31 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:09:31 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-06-09 13:09:31 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:09:31 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 172 ms
+2024-06-09 13:09:31 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:09:31 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:09:31 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:09:31 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:09:31 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:09:31 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:09:31 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:09:31 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:09:31 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.416 seconds (process running for 137.388)
+2024-06-09 13:09:31 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:09:35 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:09:35 INFO  DispatcherServlet:554 - Completed initialization in 3 ms
+2024-06-09 13:11:09 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:11:09 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:11:09 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:11:09 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:11:09 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:11:10 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:11:10 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-06-09 13:11:10 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:11:10 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 124 ms
+2024-06-09 13:11:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:11:10 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:11:10 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:11:10 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:11:10 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:11:10 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:11:10 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:11:10 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:11:10 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.33 seconds (process running for 236.171)
+2024-06-09 13:11:10 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:12:07 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:12:07 INFO  DispatcherServlet:554 - Completed initialization in 14 ms
+2024-06-09 13:13:21 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "swagger-ui.html"]
+2024-06-09 13:15:38 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:15:38 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:15:38 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:15:38 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:15:38 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:15:38 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:15:38 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-06-09 13:15:38 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:15:38 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 147 ms
+2024-06-09 13:15:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:15:38 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:15:38 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:15:38 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:15:38 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:15:38 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:15:38 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:15:38 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:15:38 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.451 seconds (process running for 504.737)
+2024-06-09 13:15:38 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:15:44 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:15:44 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 13:16:24 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
+2024-06-09 13:16:24 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:24 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:16:24 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:16:24 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:16:25 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:16:25 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-06-09 13:16:25 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:16:25 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 207 ms
+2024-06-09 13:16:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:16:25 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:16:25 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:16:25 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:16:25 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:25 WARN  AnnotationConfigServletWebServerApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+2024-06-09 13:16:25 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:25 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-09 13:16:25 ERROR SpringApplication:859 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1296) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at com.example.todo_app.TodoAppApplication.main(TodoAppApplication.java:12) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.3.0.jar:3.3.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.todo_app.exceptions.GlobalExceptionHandler] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6bf7a689]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 22 more
+Caused by: java.lang.NoClassDefFoundError: com/example/todo_app/exceptions/NotFoundException
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2676) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: com.example.todo_app.exceptions.NotFoundException
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2676) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 22 more
+2024-06-09 13:16:26 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 35579 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:16:26 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:16:26 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:16:26 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:16:26 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2024-06-09 13:16:26 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:16:26 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 124 ms
+2024-06-09 13:16:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:16:27 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:16:27 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:16:27 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:16:27 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:27 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:16:27 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:16:27 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:16:27 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.521 seconds (process running for 553.16)
+2024-06-09 13:16:27 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:16:28 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:45 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 13:16:45 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 43193 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:16:45 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:16:45 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:16:45 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 13:16:45 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 13:16:45 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:16:45 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-06-09 13:16:45 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:16:45 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 517 ms
+2024-06-09 13:16:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:16:46 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 13:16:46 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:16:46 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:16:46 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:16:46 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:16:46 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:16:47 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:16:47 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:16:47 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.833 seconds (process running for 2.211)
+2024-06-09 13:17:07 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:17:07 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 13:20:04 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-09 13:20:04 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:20:04 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 43193 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:20:04 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:20:04 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:20:04 WARN  AnnotationConfigServletWebServerApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'api' defined in class path resource [com/example/todo_app/config/WebConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/todo_app/config/WebConfig.class]] for bean 'api' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=swaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/todo_app/config/SwaggerConfig.class]] bound.
+2024-06-09 13:20:04 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-09 13:20:04 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'api', defined in class path resource [com/example/todo_app/config/WebConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/example/todo_app/config/SwaggerConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-06-09 13:20:06 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 43193 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:20:06 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:20:06 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:20:06 WARN  AnnotationConfigServletWebServerApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'api' defined in class path resource [com/example/todo_app/config/WebConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/todo_app/config/WebConfig.class]] for bean 'api' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=swaggerConfig; factoryMethodName=api; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/todo_app/config/SwaggerConfig.class]] bound.
+2024-06-09 13:20:06 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-09 13:20:06 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'api', defined in class path resource [com/example/todo_app/config/WebConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/example/todo_app/config/SwaggerConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-06-09 13:20:40 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 43193 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:20:40 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:20:40 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:20:40 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:20:40 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-06-09 13:20:41 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:20:41 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 158 ms
+2024-06-09 13:20:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:20:41 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:20:41 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:20:41 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:20:41 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:20:41 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:20:41 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:20:41 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:20:41 INFO  TodoAppApplication:56 - Started TodoAppApplication in 0.525 seconds (process running for 236.505)
+2024-06-09 13:20:41 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-06-09 13:20:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:21:14 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 13:21:14 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 21.0.2 with PID 46940 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 13:21:14 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 13:21:14 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 13:21:14 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 13:21:14 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 13:21:14 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 13:21:14 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-06-09 13:21:14 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 13:21:14 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 530 ms
+2024-06-09 13:21:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 13:21:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 13:21:14 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 13:21:15 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 13:21:15 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 13:21:15 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 13:21:15 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 13:21:15 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 13:21:15 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 13:21:15 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.836 seconds (process running for 2.197)
+2024-06-09 13:21:22 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 13:21:22 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 13:21:39 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
