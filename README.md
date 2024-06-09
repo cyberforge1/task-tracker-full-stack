@@ -16,12 +16,6 @@ This project is live! Check it out [here](https://www.somelink.com).
 [https://github.com/cyberforge1/task-tracker-app-frontend](https://github.com/cyberforge1/task-tracker-app-frontend)
 
 
-## Screenshots
-![Project Screenshot](./project-screenshot.png)
-
-
-
-
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
 - [Tech Stack](#tech-stack)
