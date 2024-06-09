@@ -1,3 +1,5 @@
+// BaseEntity.java
+
 package com.example.todo_app.common;
 
 import java.util.Date;
