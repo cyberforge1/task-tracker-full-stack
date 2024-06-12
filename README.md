@@ -12,8 +12,8 @@ A comprehensive full-stack task tracking application with complete CRUD function
 - The MVP features a polished UI for adding, completing, deleting, and editing todos with comprehensive error handling and toast notifications, while the backend ensures robust error management, request logging with Log4j, and API documentation via Spring Swagger.
 
 ## Table of Contents
-- [Frontend](#Frontend - React Typescript)
-- [Backend](#Backend - Spring Boot API)
+- [Frontend](#Frontend)
+- [Backend](#Backend)
 
 # Frontend - React Typescript
 
