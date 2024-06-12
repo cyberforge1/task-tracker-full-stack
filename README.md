@@ -14,7 +14,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
 ## Table of Contents
 - [Frontend](#Frontend)
 - [Backend](#Backend)
-- [General Details](#General-Details)
+- [Full Stack](#Full-Stack)
 
 # Frontend - React Typescript
 
@@ -86,7 +86,7 @@ Basic instructions on how to use the application
 ## Project Features
 - [x] List of specific project features
 
-# General Details
+# Full-Stack
 
 ## Additions & Improvements
 - [ ] Desired future features for the app
