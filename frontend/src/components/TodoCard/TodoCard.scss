@@ -1,0 +1,90 @@
+// TodoCard.scss
+
+.todo-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 90%;
+
+
+  &.completed {
+    color: black;
+  }
+
+  .line-through {
+    text-decoration: line-through;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+
+  h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 5px 0;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+
+    button {
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 10px 15px;
+      margin-right: 10px;
+      font-size: 14px;
+      color: #ffffff;
+      transition: background 0.3s, transform 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    .completed-btn {
+      background-color: rgb(80, 103, 188);
+      
+      &.completed {
+        background-color: rgb(80, 103, 188);
+      }
+
+      &:hover {
+        background-color: rgb(57, 72, 137);
+      }
+    }
+
+    .edit-btn {
+      background-color: rgb(32, 45, 100);
+      
+      &:hover {
+        background-color: rgb(20, 31, 69);
+      }
+    }
+
+    .delete-btn {
+      background-color: rgb(243, 39, 118);
+      
+      &:hover {
+        background-color: rgb(153, 0, 76);
+      }
+    }
+  }
+}

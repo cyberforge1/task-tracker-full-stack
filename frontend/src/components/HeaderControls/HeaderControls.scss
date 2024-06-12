@@ -1,0 +1,100 @@
+// HeaderControls.scss
+
+.header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .title-container {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: 6ch;
+      height: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #333333;
+    }
+  }
+
+  .controls-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    select {
+      border: 1px solid #e0e0e0;
+      padding: 50px;
+      font-size: 18px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      color: #333333;
+      cursor: pointer;
+      position: relative;
+      height: 60px;
+    }
+
+    .search-input {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      margin-right: 20px;
+      height: 39px;
+      width: 190px;
+
+      input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 18px;
+        color: black;
+        background-color: white;
+        height: 30px;
+      }
+
+      .search-btn {
+        background-color: #6200ea;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        height: 50px;
+
+        &:hover {
+          background-color: #4500b5;
+        }
+      }
+    }
+
+    .view-mode-btn {
+      background-color: white;
+      color: #333333;
+      border: 1px solid #e0e0e0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}
