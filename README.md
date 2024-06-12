@@ -1,4 +1,4 @@
-# Task Tracker - Full-Stack App
+# Task Tracker - Spring Boot & React
 
 ## Project Overview
 A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
