@@ -31,15 +31,15 @@ A comprehensive full-stack task tracking application with complete CRUD function
    ```bash
    git clone git@github.com:cyberforge1/task-tracker-full-stack.git
 
-2. Navigate to the frontend directory
+2. Create, initialize and link a MySQL database to the backend API
+
+3. Run the backend API locally
+
+4. Navigate to the frontend directory
    ```bash
    cd task-tracker-full-stack/frontend
 
-3. Create, initialize and link a MySQL database to the backend API
-
-4. Run the backend API locally
-
-5. Run the project locally 
+5. Run the frontend locally 
    ```bash
    npm run dev
 
