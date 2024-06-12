@@ -7,13 +7,13 @@ A comprehensive full-stack task tracking application with complete CRUD function
 ![Project Screenshot](project-screenshot.png)
 
 ## Goals & MVP
-The project aims to develop a Spring-based backend for managing todos in a MySQL database, paired with a React frontend for seamless user interaction. 
+- The project aims to develop a Spring-based backend for managing todos in a MySQL database, paired with a React frontend for seamless user interaction. 
 
-The MVP features a polished UI for adding, completing, deleting, and editing todos with comprehensive error handling and toast notifications, while the backend ensures robust error management, request logging with Log4j, and API documentation via Spring Swagger.
+- The MVP features a polished UI for adding, completing, deleting, and editing todos with comprehensive error handling and toast notifications, while the backend ensures robust error management, request logging with Log4j, and API documentation via Spring Swagger.
 
 ## Table of Contents
-- [Frontend](#frontend)
-- [Backend](#backend)
+- [Frontend](#Frontend - React Typescript)
+- [Backend](#Backend - Spring Boot API)
 
 # Frontend - React Typescript
 
