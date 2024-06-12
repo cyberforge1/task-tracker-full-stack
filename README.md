@@ -1,7 +1,7 @@
 # Task Tracker - Full-Stack Web App
 
 ## Project Overview
-A full-stack task tracking application with complete CRUD functionality, built with a Spring Boot API and a Typescript React UI
+A comprehensive full-stack task tracking application with complete CRUD functionality, utilizing a Spring Boot API, a TypeScript React UI, and a MySQL database
 
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
