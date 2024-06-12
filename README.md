@@ -9,31 +9,67 @@ A comprehensive full-stack task tracking application with complete CRUD function
 
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
-- [Tech Stack](#tech-stack)
-- [Build Steps](#build-steps)
-- [Design Goals](#design-goals)
-- [Project Features](#project-features)
-- [Additions & Improvements](#additions--improvements)
-- [Learning Highlights](#learning-highlights)
-- [Known Issues](#known-issues)
-- [Challenges](#challenges)
+- [Frontend](#frontend)
+- [Backend](#backend)
 
 
 ## Goals & MVP
 MVP
 Goals
 
+# Frontend
 
 ## Tech Stack
 
-### Frontend
 - HTML
 - SCSS
 - Typescript
 - React 
 - Git 
 
-### Backend
+
+## Build Steps
+1. How to build/run the project (use proper code snippets)
+ex.
+  ```bash
+  git clone git@github.com:cyberforge1/some-project.git
+```
+
+## How To Use
+Basic instructions on how to use the application
+
+
+## Design Goals
+- Decisions about project design
+
+
+## Project Features
+- [x] List of specific project features
+
+
+## Additions & Improvements
+- [ ] Desired future features for the app
+
+
+## Learning Highlights
+- New skills and knowledge gained from the project
+
+
+## Change Logs
+List of dates and work provided
+
+
+## Known Issues
+List errors
+
+
+## Challenges
+- List challenges
+
+# Backend
+
+## Tech Stack
+
 - HTML
 - SCSS
 - Typescript
