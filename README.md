@@ -1,15 +1,19 @@
-# Task Tracker App - Backend
+# Task Tracker Full-Stack - Spring Boot & React
 
 ## Project Overview
 A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
 
-## Link to Application Frontend
-[https://github.com/cyberforge1/task-tracker-app-frontend](https://github.com/cyberforge1/task-tracker-app-frontend)
+## Link to Application Backend
 
+[https://github.com/cyberforge1/task-tracker-app-backend](https://github.com/cyberforge1/task-tracker-app-backend)
 
-### Backend Commands:
-- mvn clean install
-- mvn spring-boot:run
+## Screenshot
+![Project Screenshot](project-screenshot.png)
+
+## Frontend Commands
+
+- npm run dev
+
 
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
@@ -29,11 +33,11 @@ Goals
 
 
 ## Tech Stack
-- Spring Boot
-- Java
-- mySQL
-- Swagger
-- Log4j
+- HTML
+- SCSS
+- Typescript
+- React 
+- Git 
 
 
 ## Build Steps
@@ -42,7 +46,6 @@ ex.
   ```bash
   git clone git@github.com:cyberforge1/some-project.git
 ```
-
 
 ## How To Use
 Basic instructions on how to use the application
@@ -85,5 +88,3 @@ Thanks for your interest in this project. Feel free to reach out with any though
 <br />
 <br />
 Oliver Jenkins © 2024
-
-
