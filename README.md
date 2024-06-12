@@ -1,7 +1,7 @@
 # Task Tracker - Full-Stack Web App
 
 ## Project Overview
-A comprehensive full-stack task tracking application with complete CRUD functionality, utilizing a Spring Boot API, a TypeScript React UI, and a MySQL database
+A comprehensive full-stack task tracking application with complete CRUD functionality, utilizing a Spring Boot API, a TypeScript React UI, and a MySQL database.
 
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
@@ -35,7 +35,11 @@ The MVP features a polished UI for adding, completing, deleting, and editing tod
    ```bash
    cd task-tracker-full-stack/frontend
 
-3. Run the project locally 
+3. Create, initialize and link a MySQL database to the backend API
+
+4. Run the backend API locally
+
+5. Run the project locally 
    ```bash
    npm run dev
 
