@@ -3,14 +3,13 @@
 ## Project Overview
 A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
 
+## Link to Application Frontend
+[https://github.com/cyberforge1/task-tracker-app-frontend](https://github.com/cyberforge1/task-tracker-app-frontend)
+
+
 ### Backend Commands:
 - mvn clean install
 - mvn spring-boot:run
-
-## Link to Application Frontend
-
-[https://github.com/cyberforge1/task-tracker-app-frontend](https://github.com/cyberforge1/task-tracker-app-frontend)
-
 
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
