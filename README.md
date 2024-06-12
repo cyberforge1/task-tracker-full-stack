@@ -12,12 +12,11 @@ A comprehensive full-stack task tracking application with complete CRUD function
 - [Frontend](#frontend)
 - [Backend](#backend)
 
-
 ## Goals & MVP
 MVP
 Goals
 
-# Frontend
+# Frontend - React Typescript
 
 ## Tech Stack
 
@@ -66,7 +65,7 @@ List errors
 ## Challenges
 - List challenges
 
-# Backend
+# Backend - Spring Boot API
 
 ## Tech Stack
 
