@@ -11,7 +11,6 @@ MVP
 Goals
 
 ## Table of Contents
-- [Goals & MVP](#goals--MVP)
 - [Frontend](#frontend)
 - [Backend](#backend)
 
