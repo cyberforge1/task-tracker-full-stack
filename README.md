@@ -14,6 +14,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
 ## Table of Contents
 - [Frontend](#Frontend)
 - [Backend](#Backend)
+- [General Details](#General-Details)
 
 # Frontend - React Typescript
 
@@ -55,25 +56,6 @@ Basic instructions on how to use the application
 - [x] List of specific project features
 
 
-## Additions & Improvements
-- [ ] Desired future features for the app
-
-
-## Learning Highlights
-- Gained
-
-
-## Change Logs
-List of dates and work provided
-
-
-## Known Issues
-List errors
-
-
-## Challenges
-- List challenges
-
 # Backend - Spring Boot API
 
 ## Tech Stack
@@ -104,6 +86,7 @@ Basic instructions on how to use the application
 ## Project Features
 - [x] List of specific project features
 
+# General Details
 
 ## Additions & Improvements
 - [ ] Desired future features for the app
