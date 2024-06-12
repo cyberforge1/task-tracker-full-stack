@@ -26,11 +26,17 @@ Goals
 
 
 ## Build Steps
-1. How to build/run the project (use proper code snippets)
-ex.
-  ```bash
-  git clone git@github.com:cyberforge1/some-project.git
-```
+1. Clone the project from GitHub:
+   ```bash
+   git clone git@github.com:cyberforge1/task-tracker-full-stack.git
+
+2. Navigate to the frontend directory
+   ```bash
+   cd task-tracker-full-stack/frontend
+
+3. Run the project locally 
+   ```bash
+   npm run dev
 
 ## How To Use
 Basic instructions on how to use the application
