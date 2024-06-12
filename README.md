@@ -6,10 +6,6 @@ A comprehensive full-stack task tracking application with complete CRUD function
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
 
-## Frontend Commands
-
-- npm run dev
-
 
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
@@ -29,6 +25,15 @@ Goals
 
 
 ## Tech Stack
+
+### Frontend
+- HTML
+- SCSS
+- Typescript
+- React 
+- Git 
+
+### Backend
 - HTML
 - SCSS
 - Typescript
