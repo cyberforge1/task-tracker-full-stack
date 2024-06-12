@@ -1,11 +1,7 @@
 # Task Tracker - Full-Stack Web App
 
 ## Project Overview
-A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
-
-## Link to Application Backend
-
-[https://github.com/cyberforge1/task-tracker-app-backend](https://github.com/cyberforge1/task-tracker-app-backend)
+A full-stack task tracking application with complete CRUD functionality, built with a Spring Boot API and a Typescript React UI
 
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
