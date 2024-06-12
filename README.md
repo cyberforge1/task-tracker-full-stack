@@ -1,4 +1,4 @@
-# Task Tracker App - Spring Boot API Backend
+# Task Tracker App - Backend
 
 ## Project Overview
 A full-stack task tracking application built with a Spring Boot API and a Typescript React UI
