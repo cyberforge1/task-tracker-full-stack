@@ -6,15 +6,14 @@ A comprehensive full-stack task tracking application with complete CRUD function
 ## Screenshot
 ![Project Screenshot](project-screenshot.png)
 
+## Goals & MVP
+MVP
+Goals
 
 ## Table of Contents
 - [Goals & MVP](#goals--MVP)
 - [Frontend](#frontend)
 - [Backend](#backend)
-
-## Goals & MVP
-MVP
-Goals
 
 # Frontend - React Typescript
 
