@@ -45,4 +45,8 @@ public class Todo extends BaseEntity {
     public void setCompleted(Boolean completed) {
         this.completed = completed;
     }
+
+    public void setId(Long id) {
+        super.setId(id);
+    }
 }

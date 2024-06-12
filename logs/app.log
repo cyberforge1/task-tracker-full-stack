@@ -670,3 +670,141 @@ Consider renaming one of the beans or enabling overriding by setting spring.main
 2024-06-09 13:21:22 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
 2024-06-09 13:21:22 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
 2024-06-09 13:21:39 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 15:56:04 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 15:56:04 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 15:56:16 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 15:56:16 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:03:12 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:03:12 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:05:08 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:05:08 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:05:20 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:05:20 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:05:27 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:05:27 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:05:34 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:05:34 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:09:40 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:09:40 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:10:00 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:10:00 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:11:02 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:11:02 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:13:00 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:13:00 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:14:49 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:14:49 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:15:40 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:15:40 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:18:51 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 16:18:51 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 17.0.11 with PID 52710 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 16:18:51 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 16:18:51 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 16:18:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 16:18:51 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 16:18:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 16:18:51 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-06-09 16:18:51 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 16:18:51 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 498 ms
+2024-06-09 16:18:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 16:18:51 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 16:18:51 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 16:18:51 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 16:18:52 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 16:18:52 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 16:18:52 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 16:18:52 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 16:18:52 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 16:18:52 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.921 seconds (process running for 2.224)
+2024-06-09 16:19:32 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-09 16:19:32 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-09 16:20:41 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 16:21:14 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:21:15 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:21:30 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.example.todo_app.todo.TodoControllerTest]: TodoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-09 16:21:30 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.example.todo_app.TodoAppApplication for test class com.example.todo_app.todo.TodoControllerTest
+2024-06-09 16:22:40 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-09 16:22:40 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 17.0.11 with PID 57098 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-09 16:22:40 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-09 16:22:40 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-09 16:22:40 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-09 16:22:40 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-09 16:22:40 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-09 16:22:40 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-06-09 16:22:40 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-09 16:22:40 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 499 ms
+2024-06-09 16:22:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-09 16:22:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-09 16:22:40 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-09 16:22:40 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-09 16:22:41 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-09 16:22:41 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-09 16:22:41 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-09 16:22:41 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-09 16:22:41 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-09 16:22:41 INFO  TodoAppApplication:56 - Started TodoAppApplication in 1.858 seconds (process running for 2.141)
+2024-06-09 16:22:54 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 10:28:02 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-12 10:28:02 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 22.0.1 with PID 3540 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-12 10:28:02 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-12 10:28:02 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 10:28:02 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 10:28:02 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 10:28:02 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 10:28:02 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-06-12 10:28:02 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-12 10:28:02 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 582 ms
+2024-06-12 10:28:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 10:28:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-12 10:28:02 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-12 10:28:03 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 10:28:03 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 10:28:04 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 10:28:04 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-12 10:28:04 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-12 10:28:04 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-12 10:28:04 INFO  TodoAppApplication:56 - Started TodoAppApplication in 2.218 seconds (process running for 2.588)
+2024-06-12 10:28:18 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-12 10:28:18 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-06-12 13:44:46 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:47 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:48 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:49 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:49 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:49 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:50 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:50 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:50 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:50 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:50 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:53 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:54 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:54 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:54 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:54 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:54 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 13:44:55 WARN  ExceptionHandlerExceptionResolver:247 - Resolved [com.example.todo_app.exceptions.NotFoundException: Todo with id 160 not found]
+2024-06-12 14:48:03 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 17:18:32 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-12 17:18:32 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 22.0.1 with PID 2243 (/Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-app/task-tracker-app-backend)
+2024-06-12 17:18:32 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-12 17:18:32 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 17:18:32 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 17:18:32 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 17:18:33 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 17:18:33 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-06-12 17:18:33 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-12 17:18:33 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 564 ms
+2024-06-12 17:18:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 17:18:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-12 17:18:33 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-12 17:18:33 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 17:18:34 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 17:18:34 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 17:18:34 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-12 17:18:34 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-12 17:18:34 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-12 17:18:34 INFO  TodoAppApplication:56 - Started TodoAppApplication in 2.157 seconds (process running for 2.596)
+2024-06-12 17:18:41 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-12 17:18:41 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-06-12 19:41:31 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
