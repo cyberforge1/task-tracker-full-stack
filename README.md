@@ -53,7 +53,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
 
 
 ## Project Features
-- [x] Ability to create, read, update and delete tasks 
+- [x] An efficient user interface to interact with the backend API to access CRUD functionality
 - [x] Dynamic filtering for specific task status
 - [x] Instantaneous searching for matching tasks 
 - [x] Toggling capability between list and tile components for tasks
@@ -80,36 +80,47 @@ ex.
 ```
 
 ## How To Use
-Basic instructions on how to use the application
 
+To access this backend, first follow the build steps above. The application frontend provides a user interface to interact with this backend automatically, endpoints can also be accessed and tested through an applications like Postman, or Swagger UI.
 
 ## Design Goals
-- Decisions about project design
+- The aim of this application was to create a robust API to create, read, update and delete task data. 
 
 
 ## Project Features
-- [x] List of specific project features
+- [x] Comprehensive CRUD functionality to interact with the database
+- [x] A MySQL database to store task data  
+- [x] User error notification for incorrect endpoint access
+- [x] Enhanced logging features provided by Log4j
+- [x] Project document generation by Spring Swagger
+- [x] Unit testing provided by JUnit
 
 # General
 
 ## Additions & Improvements
-- [ ] Desired future features for the app
+### Frontend
+- [ ] Addition of GitHub Workflow Badges
+- [ ] User authentication and login functionality
+- [ ] Integration of React Testing Library
+- [ ] Adding toast notifications
+
+### Backend
+- [ ] Addition of GitHub Workflow Badges
+- [ ] User authentication and login functionality
+- [ ] Troubleshooting integration and end-to-end testing
+- [ ] Creating a Docker container for deployment
 
 
 ## Learning Highlights
-- New skills and knowledge gained from the project
-
-
-## Change Logs
-List of dates and work provided
-
-
-## Known Issues
-List errors
-
+- Practiced and enhanced skills with React by creating components, adding display toggling, dynamic filtering and searching to my application
+- Applied various tests and testing libraries to the frontend and backend
+- Building in different libraries to increase application scope and functionality 
+- Gained valuable experience by independently building a Spring Boot application
+- Creating and integrating a MySQL database for desired data
 
 ## Challenges
-- List challenges
+- Learning how to apply unit-testing, integration testing and end-to end testing throughout the application
+- Building previously unknown features into the application with new libraries
 
 
 ## Contact Me
