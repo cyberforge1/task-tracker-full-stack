@@ -116,8 +116,8 @@ To access this backend, first follow the build steps above. The application fron
 - Creating and integrating a MySQL database for desired data
 
 ## Challenges
+- Building new features into the application with associated libraries to increase scope
 - Learning how to apply unit-testing, integration testing and end-to end testing on the frontend and backend
-- Building new libraries into the application to provide greater scope
 
 
 ## Contact Me
