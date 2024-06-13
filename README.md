@@ -133,7 +133,7 @@ To access this backend, first follow the build steps above. The application fron
 
 
 ## Project Features
-- [x] Comprehensive CRUD functionality to interact with the database
+- [x] Comprehensive CRUD functionality with database access
 - [x] A MySQL database to store task data  
 - [x] User error notification for incorrect endpoint access
 - [x] Enhanced logging features provided by Log4j
