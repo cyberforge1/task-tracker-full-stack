@@ -102,7 +102,7 @@ To access this backend, first follow the build steps above. The application fron
 - [ ] Addition of GitHub Workflow Badges
 - [ ] User authentication and login functionality
 - [ ] Integration of React Testing Library
-- [ ] Adding toast notifications
+- [ ] Providing toast notifications for error handling
 
 ### Backend
 - [ ] Addition of GitHub Workflow Badges
