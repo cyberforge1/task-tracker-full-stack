@@ -90,14 +90,14 @@ A comprehensive full-stack task tracking application with complete CRUD function
   ```
 
 4. Open MySQL WorkBench (or access through CLI) and create a new database
-  ```bash
+  ```sql
   CREATE DATABASE new_database;
    ```
 
 5. Navigate to src/main/resources and create a application.properties file in this directory:
 
 6. Integrate your specific details into application.properties:
-  ```bash
+  ```sql
    spring.datasource.url=jdbc:mysql://localhost:3306/new_database_name
    spring.datasource.username=your_username
    spring.datasource.password=your_password
