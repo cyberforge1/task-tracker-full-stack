@@ -56,6 +56,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
 - [x] An efficient user interface to interact with the backend API to access CRUD functionality
 - [x] Dynamic filtering for specific task status
 - [x] Instantaneous searching for matching tasks 
+- [x] Changing task data to complete or incomplete
 - [x] Toggling capability between list and tile components for tasks
 
 
@@ -108,9 +109,10 @@ To access this backend, first follow the build steps above. The application fron
 
 ## Learning Highlights
 - Practiced and enhanced skills with React by creating components, adding display toggling, dynamic filtering and searching to my application
-- Applied various tests and testing libraries to the frontend and backend
+- Applied various testing methods and libraries to the frontend and backend
 - Building in different libraries to increase application scope and functionality 
-- Gained valuable experience by independently building a Spring Boot application
+- Gained independent experience building a Spring Boot application
+- Built familiarity with Spring Boot elements (controllers, services, repositories, DTOs, etc.)
 - Creating and integrating a MySQL database for desired data
 
 ## Challenges
