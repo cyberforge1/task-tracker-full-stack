@@ -831,3 +831,26 @@ Consider renaming one of the beans or enabling overriding by setting spring.main
 2024-06-13 10:42:37 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
 2024-06-13 10:42:37 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
 2024-06-13 12:38:17 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 13:51:26 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-13 13:51:26 INFO  TodoAppApplication:50 - Starting TodoAppApplication using Java 22.0.1 with PID 68197 (/Users/softdev/Desktop/github-projects/task-tracker-full-stack/target/classes started by softdev in /Users/softdev/Desktop/github-projects/task-tracker-full-stack)
+2024-06-13 13:51:26 DEBUG TodoAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-13 13:51:26 INFO  TodoAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 13:51:26 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-13 13:51:26 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-13 13:51:26 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 13:51:26 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-06-13 13:51:27 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-13 13:51:27 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 639 ms
+2024-06-13 13:51:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 13:51:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 13:51:27 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-13 13:51:27 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 13:51:28 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 13:51:28 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 13:51:28 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 13:51:28 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-13 13:51:28 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 13:51:28 INFO  TodoAppApplication:56 - Started TodoAppApplication in 2.312 seconds (process running for 2.702)
+2024-06-13 13:52:15 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-13 13:52:15 INFO  DispatcherServlet:554 - Completed initialization in 3 ms
+2024-06-13 13:53:55 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'

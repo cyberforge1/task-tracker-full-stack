@@ -74,11 +74,46 @@ A comprehensive full-stack task tracking application with complete CRUD function
 
 
 ## Build Steps
-1. How to build/run the project (use proper code snippets)
-ex.
+1. Install prerequisite software:
+- Java Development Kit
+- Apache Maven
+- MySQL
+
+2. Clone the project from GitHub:
   ```bash
-  git clone git@github.com:cyberforge1/some-project.git
-```
+  git clone git@github.com:cyberforge1/task-tracker-full-stack.git
+
+3. Navigate into the project directory
+  ```bash
+  cd task-tracker-full-stack
+
+4. Open MySQL WorkBench (or access through CLI) and create a new database
+  ```bash
+  CREATE DATABASE new_database;
+
+5. Navigate to src/main/resources and create a application.properties file in this directory:
+
+6. Integrate your specific details into the following:
+  ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/new_database_name
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   spring.jpa.hibernate.ddl-auto=update
+
+7. Clean and build project:
+  ```bash
+  mvn clean install
+
+8. Run the project locally:
+  ```bash
+  mvn spring-boot:run
+
+9. Navigate to the following url to confirm project start:
+  ```bash
+   http://localhost:8080/todos
+
+10. Run project frontend or test URL endpoints with an application such as Postman
+
 
 ## How To Use
 
