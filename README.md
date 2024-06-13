@@ -98,16 +98,11 @@ To access this backend, first follow the build steps above. The application fron
 # General
 
 ## Additions & Improvements
-### Frontend
 - [ ] Addition of GitHub Workflow Badges
 - [ ] User authentication and login functionality
-- [ ] Integration of React Testing Library
+- [ ] Integration of React Testing Library for frontend
 - [ ] Providing toast notifications for error handling
-
-### Backend
-- [ ] Addition of GitHub Workflow Badges
-- [ ] User authentication and login functionality
-- [ ] Troubleshooting integration and end-to-end testing
+- [ ] Troubleshooting backend integration and end-to-end testing
 - [ ] Creating a Docker container for deployment
 
 
