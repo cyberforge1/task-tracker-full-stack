@@ -99,7 +99,7 @@ To access this backend, first follow the build steps above. The application fron
 # General
 
 ## Additions & Improvements
-- [ ] Addition of GitHub Workflow Badges
+- [ ] Adding GitHub Workflow Badges
 - [ ] User authentication and login functionality
 - [ ] Integration of React Testing Library for frontend
 - [ ] Providing toast notifications for error handling
