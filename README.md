@@ -120,7 +120,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
    http://localhost:8080/todos
    ```
 
-10. To access URL endpoints run the application frontend or use software like Postman
+10. To access URL endpoints launch the application frontend or use software like Postman
 
 
 
