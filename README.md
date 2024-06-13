@@ -108,7 +108,7 @@ To access this backend, first follow the build steps above. The application fron
 
 
 ## Learning Highlights
-- Strengthened skills with React by creating components, adding display toggling, dynamic filtering and searching to my application
+- Practiced skills with React by creating components, adding display toggling, dynamic filtering and searching to my application
 - Applied various testing methods and libraries to the frontend and backend
 - Building in different libraries to increase application scope and functionality 
 - Gained independent experience building a Spring Boot application
