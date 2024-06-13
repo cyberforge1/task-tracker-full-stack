@@ -45,7 +45,7 @@ A comprehensive full-stack task tracking application with complete CRUD function
    npm run dev
 
 ## How To Use
-Create a task by filling out the form inputs and submitting the 'Add Task' button. Tasks can then be completed, edited, or deleted with a button click. Features for sorting, searching and changing the user interface appearance are also available.
+- Users can create a task by filling out the form inputs and submitting the 'Add Task' button. Tasks can then be completed, edited, or deleted with a button click. Features for sorting, searching and changing the user interface appearance are also available.
 
 
 ## Design Goals
@@ -56,7 +56,7 @@ Create a task by filling out the form inputs and submitting the 'Add Task' butto
 - [x] Ability to create, read, update and delete tasks 
 - [x] Dynamic filtering for specific task status
 - [x] Instantaneous searching for matching tasks 
-- [x] Toggling display feature for task components between a list and tiles
+- [x] Toggling capability between list and tile components for tasks
 
 
 
